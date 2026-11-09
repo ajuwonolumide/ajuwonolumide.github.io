@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Lummy Visuals | Portfolio</title>
+	<style>
+		* { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+		body { background-color: #0d0e12; color: #f3f4f6; line-height: 1.6; }
+		header { background: linear-gradient(135deg, #1f2937, #111827); padding: 80px 20px; text-align: center; border-bottom: 2px solid #3b82f6; }
+		header h1 { font-size: 3rem; color: #ffffff; letter-spacing: 1px; margin-bottom: 10px; }
+		header p { font-size: 1.2rem; color: #9ca3af; }
+		.container { max-width: 1000px; margin: 40px auto; padding: 0 20px; }
+		h2 { font-size: 2rem; margin-bottom: 20px; color: #3b82f6; border-left: 4px solid #3b82f6; padding-left: 10px; }
+		.about-section { margin-bottom: 50px; background: #1f2937; padding: 30px; border-radius: 8px; }
+		.packages-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 25px; margin-top: 20px; }
+		.package-card { background: #1f2937; padding: 25px; border-radius: 8px; border: 1px solid #374151; transition: transform 0.3s; }
+		.package-card:hover { transform: translateY(-5px); border-color: #3b82f6; }
+		.package-card h3 { font-size: 1.4rem; color: #ffffff; margin-bottom: 10px; }
+		.package-card .price { font-size: 1.2rem; color: #10b981; font-weight: bold; margin-bottom: 15px; }
+		.package-card ul { list-style: none; color: #9ca3af; }
+		.package-card ul li { margin-bottom: 8px; }
+		footer { text-align: center; padding: 40px 20px; color: #6b7280; font-size: 0.9rem; margin-top: 60px; border-top: 1px solid #1f2937; }
+	</style>
+</head>
+<body>
+
+	<header>
+		<h1>Lummy Visuals</h1>
+		<p>Professional Visual Artist &amp; Content Creator</p>
+	</header>
+
+	<div class="container">
+		<section class="about-section">
+			<h2>About Me</h2>
+			<p>Welcome to my professional creative space. I specialize in high-end visuals, digital design, and content production designed to bring concepts to life with pristine clarity and impact.</p>
+		</section>
+
+		<section>
+			<h2>My Packages &amp; Services</h2>
+			<div class="packages-grid">
+                
+				<!-- Package 1 -->
+				<div class="package-card">
+					<h3>Starter Visuals</h3>
+					<div class="price">Standard Rate</div>
+					<ul>
+						<li>✓ Essential Editing</li>
+						<li>✓ High-Resolution Output</li>
+						<li>✓ 1 Revision Round</li>
+					</ul>
+				</div>
+
+				<!-- Package 2 -->
+				<div class="package-card">
+					<h3>Premium Production</h3>
+					<div class="price">Most Popular</div>
+					<ul>
+						<li>✓ Full Creative Direction</li>
+						<li>✓ Advanced Post-Processing</li>
+						<li>✓ Priority Delivery</li>
+					</ul>
+				</div>
+
+				<!-- Package 3 -->
+				<div class="package-card">
+					<h3>Enterprise Brand Kit</h3>
+					<div class="price">Custom Quote</div>
+					<ul>
+						<li>✓ Complete Visual Identity</li>
+						<li>✓ Multi-Platform Assets</li>
+						<li>✓ Dedicated Consultation</li>
+					</ul>
+				</div>
+
+			</div>
+		</section>
+	</div>
+
+	<footer>
+		<p>&copy; 2026 Lummy Visuals. All rights reserved.</p>
+	</footer>
+
+</body>
+</html>
